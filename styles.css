@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+h1 {
+	text-align: center;
+	text-decoration-line: underline;
+	color: blue;
+
+}
+.container{
+
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(3, 1fr);
+
+}
+
+.box {
+  background-color: rgb(253, 109, 43);
+	padding: 1rem;
+}
+
+.draggable {
+  padding: 1rem;
+	text-align: center;
+	font-size: x-large;
+	color: white;
+  background-color: blue;
+  border: 1px solid rgb(253, 109, 43);
+  cursor: move;
+}
+
+.draggable.dragging {
+  opacity: .5;
+	background-color: green;
+}
+
+.box:empty {
+	background-color: rgb(253, 109, 43);
+	opacity: 0.2;
+}
+

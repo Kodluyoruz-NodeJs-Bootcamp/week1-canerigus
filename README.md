@@ -7,5 +7,5 @@ There is a simple 3x3 grid layout where you can drag elements inside a grid and 
 
 ### How it works
 
-The project is utilizes by dragstart, dragover and dragend events.
+The project is utilizes the dragstart, dragover and dragend events.
 More details > app.js
